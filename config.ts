@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://minagro.gov.ua/",
+  match: "https://minagro.gov.ua/**",
+  maxPagesToCrawl: 999999999,
+  outputFileName: "minagro.json",
   maxTokens: 2000000,
   selector: "body"
 };
