@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://online.minjust.gov.ua/",
+  match: "https://online.minjust.gov.ua/**",
+  maxPagesToCrawl: 999999999,
+  outputFileName: "online-minjust-gov-ua.json",
   maxTokens: 2000000,
   selector: "body"
 };
