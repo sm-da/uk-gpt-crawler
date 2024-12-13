@@ -6,5 +6,5 @@ export const defaultConfig: Config = {
   maxPagesToCrawl: 999999999,
   outputFileName: "mon-gov-ua.json",
   maxTokens: 2000000,
-  selector: "body"
+  selector: "body",
 };
