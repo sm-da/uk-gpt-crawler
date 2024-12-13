@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://www.kmu.gov.ua/en",
+  match: "https://www.kmu.gov.ua/en/**",
+  maxPagesToCrawl: 999999999,
+  outputFileName: "kmu.json",
   maxTokens: 2000000,
   selector: "body"
 };
