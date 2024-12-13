@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://www.who.int/",
+  match: "https://www.who.int/**",
+  maxPagesToCrawl: 999999999,
+  outputFileName: "who-int.json",
   maxTokens: 2000000,
   selector: "body"
 };
