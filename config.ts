@@ -3,7 +3,7 @@ import { Config } from "./src/config";
 export const defaultConfig: Config = {
   url: "https://mof.gov.ua/",
   match: "https://mof.gov.ua/**",
-  maxPagesToCrawl: 99999999,
+  maxPagesToCrawl: 9999999,
   outputFileName: "mof-gov-ua.json",
   maxTokens: 2000000,
   selector: "body",
